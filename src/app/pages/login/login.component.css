@@ -1,0 +1,78 @@
+.custom-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid brown;
+  border-radius: 8px;
+
+}
+
+.custom-form-container .form-label {
+  font-weight: bold;
+
+}
+
+.custom-form-container .form-control {
+  border-radius: 4px;
+
+}
+
+.custom-form-container .form-text {
+  font-size: 0.875em;
+
+}
+
+.custom-form-container .form-check-label {
+  color: #333;
+}
+
+.custom-form-container .btn-primary {
+  background-color: brown;
+  border: none;
+  border-radius: 4px;
+}
+
+.custom-form-container .btn-primary:hover {
+  background-color: rgb(114, 42, 42);
+}
+.text-success {
+  color: green;
+
+  margin-left: 30px;
+}
+
+.text-danger {
+  color: red;
+  margin-left: 30px;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+.text-success {
+color: green;
+}
+
+.text-danger {
+color: red;
+}
+
+.fa-check {
+color: green;
+}
+
+.fa-times {
+color: red;
+}
+
+.login{
+  margin-top: 10px;
+}
+.email{
+  margin-left: 30px;
+}
+

@@ -1,0 +1,44 @@
+.productList
+{
+  display:flex;
+  gap:100px;
+}
+.headingImage{
+  margin: 100px;
+}
+.details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 200px;
+  margin-left: -100px;
+  height: 250px;
+  width:300px;
+}
+
+.details p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.details p span {
+  font-weight: bold;
+  color: #555;
+}
+
+.details .price {
+  color: #e74c3c;
+  font-size: 18px;
+}
+
+.details .rating {
+  color: #f39c12;
+}
+
+.details .brand, .details .tags {
+  color: #0e69c5;
+}
+

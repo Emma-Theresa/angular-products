@@ -1,0 +1,11 @@
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding:  20px 5px;
+  background-color: brown;
+  color: white;
+}
+ul>li:hover{
+  color: grey;
+}

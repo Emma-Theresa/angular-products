@@ -2,6 +2,7 @@ import { Component, Input, input } from '@angular/core';
 import { CardsComponent } from "../cards/cards.component";
 import { Product } from '../../interface/product.interface';
 import { Category } from '../../interface/category.interface';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -13,9 +14,11 @@ import { Category } from '../../interface/category.interface';
 })
 export class CardListComponent {
   categories: Category[] = [];
+  product: any;
 
 
-  constructor() {
+
+  constructor(private router:Router) {
     this.fetchData();
   }
 
@@ -55,5 +58,17 @@ export class CardListComponent {
       console.log("error")
     }
   }
-
+  handleEvent(productId:number){
+    this.navigateToProductPage(productId);
+  }
+  navigateToProductPage(productId: number) {
+    console.log(productId)
+    this.router.navigate(['/single-district-page', productId]).then((navigationResult: any)=>{
+      if(navigationResult){
+        console.log("Navigation succesful")
+      }else{
+        console.log("Navigation Failed")
+      }
+    });
+  }
   }
